@@ -1,0 +1,121 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Centered form container */
+.auth-container {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Logo */
+.auth-container .brand-logo img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+/* Headings */
+.auth-container h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.auth-container h6 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Form Inputs */
+.auth-container .form-group {
+  margin-bottom: 15px;
+}
+
+.auth-container .form-control {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+/* Button Styles */
+.auth-container .auth-form-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.auth-container .auth-form-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Facebook Login Button */
+.auth-container .btn-facebook {
+  background-color: #3b5998;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.auth-container .btn-facebook:hover {
+  background-color: #2d4373;
+}
+
+/* Checkbox and Forgot Password */
+.auth-container .form-check-label {
+  font-size: 13px;
+  color: #666;
+}
+
+.auth-container .auth-link {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.auth-container .auth-link:hover {
+  text-decoration: underline;
+}
+
+/* Sign-up / Login Link */
+.auth-container .text-center {
+  font-size: 14px;
+  color: #666;
+  margin-top: 15px;
+}
+
+.auth-container .text-primary {
+  color: #007bff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.auth-container .text-primary:hover {
+  text-decoration: underline;
+}
+

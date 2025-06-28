@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Backend uploads directory (contains user-uploaded files)
+backend/uploads/book_covers/
+
+
+# Python cache and virtual environment
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Miscellaneous
+*.log
+.DS_Store
